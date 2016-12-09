@@ -1,0 +1,19 @@
+{application, ezk,
+ [{description, "An OTP library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { ezk_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,
+   [
+    {sample_rate, 0.99} % for testing
+   ]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
